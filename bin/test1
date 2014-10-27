@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+$:.unshift( Pathname.new(__FILE__).join( '..', '..', 'lib' ).expand_path )
+require 'audio'
+
+Audio::GUI.run

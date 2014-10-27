@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fftw3 (0.3)
+      narray
+    gosu (0.8.5)
+    narray (0.6.0.9)
+    wavefile (0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fftw3
+  gosu
+  wavefile
